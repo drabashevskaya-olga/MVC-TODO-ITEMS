@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "./"
+        ]
+    },
+    "require": {
+        "symfony/routing": "^5.4",
+        "symfony/http-foundation": "^5.4"
+    }
+}
